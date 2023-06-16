@@ -1,0 +1,103 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  list-style: none;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+:root {
+  --bg-clr: rgb(11, 19, 30);
+  --bg-snd: rgb(32, 43, 59);
+  --txt-clr: rgb(221, 224, 228);
+
+  --container-width-lg: 85%;
+
+  --rubik: "Rubik", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: black;
+  color: var(--txt-clr);
+  font-family: var(--rubik);
+}
+
+.container {
+  background: var(--bg-clr);
+  min-height: 100vh;
+  width: var(--container-width-lg);
+  margin: 0 auto;
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+
+img{
+    width: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    background: white;
+    object-fit: cover;
+}
+
+li{
+    padding: 8px;
+    border-radius: 5px;
+    background: var(--bg-snd);
+}
+
+#bio{
+    font-weight: 400;
+}
+
+span{
+    font-weight: 600;
+}
+
+#info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 70%;
+}
+form{
+    display: flex;
+}
+
+input{
+    background: var(--bg-snd);
+    height: 30px;
+    padding: 8px;
+    color: var(--txt-clr);
+}
+
+button{
+    background: rgb(44, 60, 83);
+    height: 30px;
+    padding: 8px;
+    color: var(--txt-clr);
+    cursor: pointer;
+}
+
+button:hover{
+    background: rgb(51, 70, 97);
+    transition: all 400ms ease;
+}
