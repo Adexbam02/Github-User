@@ -14,7 +14,6 @@ const bio = document.getElementById("bio");
 const email = document.getElementById("email");
 const twitter = document.getElementById("twitter");
 const Location = document.getElementById("Location");
-const Company = document.getElementById("Company");
 const hire = document.getElementById("hire");
 
 const getUser = (name) => {
@@ -44,7 +43,6 @@ const getUser = (name) => {
 
       Location.innerText = json.location;
 
-      Company.innerText = json.Company;
 
     })
     .catch((err) => {
