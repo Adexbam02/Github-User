@@ -2,6 +2,9 @@
 
 The GitHub User Info Program is a web application that allows users to input a GitHub username or name and retrieve information about the user. The program utilizes HTML, CSS, and JavaScript to provide an interactive user interface and fetch data from the GitHub API.
 
+## Live Site:
+https://github-user-lime.vercel.app/
+
 ## Features
 
 - User can input a GitHub username or name.
