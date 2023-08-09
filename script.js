@@ -55,5 +55,5 @@ form.addEventListener("submit", (e) => {
   getUser(userInput.value);
   setTimeout(() => {
     userInput.value = "";
-  }, 2000);
+  }, 5000);
 });
