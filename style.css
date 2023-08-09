@@ -102,6 +102,11 @@ button:hover{
     transition: all 400ms ease;
 }
 
+small a{
+  color: white;
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 600px) {
     .container{
         width: 100%;
